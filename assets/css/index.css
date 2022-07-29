@@ -1,0 +1,171 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**header title*/
+
+header {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 4px solid black;
+    background: linear-gradient(rgb(30, 203, 30), #f16529 35%, rgb(91, 196, 237));
+    color: white;
+    z-index: 0;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+li {
+    display: block;
+    position: relative;
+    z-index: 9;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+header nav ul li a {
+    color: white;
+    display: block;
+    text-align: center;
+
+
+}
+
+ul img {
+    width: 100px;
+
+}
+
+nav {
+    z-index: 2;
+}
+
+#logo {
+    width: 160px;
+    position: absolute;
+    margin-left: 89%;
+    animation-duration: 3s;
+    animation-name: glissement;
+    animation-iteration-count: 1;
+    z-index: 1;
+
+}
+
+@keyframes glissement {
+    from {
+        margin-left: 0%;
+    }
+
+    to {
+        margin-left: 89%;
+    }
+}
+
+/**************HEADER****************/
+
+main{
+    background-image: url(../images/page\ accueil.PNG);
+    background-size: cover;
+}
+
+.align {
+    display: flex;
+    justify-content: end ;
+    margin-right: 10px;
+}
+
+.align section:first-child{
+    width: 25%;
+    border: 6px solid black;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: burlywood;
+}
+div{
+    text-align: center;
+}
+h2{
+    text-decoration: underline black;
+    background: -webkit-linear-gradient(1deg, rgb(30, 203, 30) 20%, #f16529 , rgb(21, 0, 243));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xx-large;
+}
+.orange{
+    text-shadow: orange 1px 0 10px;
+    color: #ff4d00;
+}
+.blue{
+    text-shadow: rgb(7, 222, 255) 1px 0 10px;
+    color: #1900ff;
+}
+.heineken{
+    text-shadow: rgb(60, 255, 0) 1px 0 10px;
+    color: #008a0e;
+}
+h3{
+    font-size: large;
+}
+#o{
+    color: white;
+    font-size: large;
+    text-shadow: orange 1px 0 10px;
+}
+#b{
+    color: white;
+    font-size: large;
+    text-shadow: rgb(7, 222, 255) 1px 0 10px;
+
+}
+#hv{
+    color: white;
+    font-size: large;
+    text-shadow: rgb(60, 255, 0) 1px 0 10px;
+}
+
+
+
+
+
+
+
+footer {
+    border-top: 3px solid black;
+    background: linear-gradient(rgb(91, 196, 237), #f16529 35%, rgb(30, 203, 30));
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: large;
+    font-style: italic;
+
+}
+
+footer img {
+    width: 50px;
+
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+
+}

@@ -1,0 +1,55 @@
+@media screen and (max-width: 1500px) {
+    #logo {
+        display: none;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .align {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        background: burlywood;
+        color: white;
+    }
+
+    .align section:first-child {
+        width: 100%;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    .align {
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 575px) {
+
+    ul img {
+        display: none;
+    }
+
+    footer img {
+        display: none;
+    }
+
+}

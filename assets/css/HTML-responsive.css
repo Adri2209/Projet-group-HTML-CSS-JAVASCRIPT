@@ -1,0 +1,43 @@
+@media screen and (max-width: 1000px) {
+    #logo {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    article {
+
+        flex-direction: column;
+    }
+
+    .end {
+        flex-direction: column;
+    }
+
+    section h2 {
+        background-color: transparent;
+        border: none;
+        margin: auto;
+        color: black;
+        text-decoration: underline;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    ul img {
+        display: none;
+    }
+
+    footer img {
+        display: none;
+    }
+}
+    

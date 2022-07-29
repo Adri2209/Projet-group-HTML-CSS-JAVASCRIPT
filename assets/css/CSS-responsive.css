@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+
+header{ 
+    display: flex;
+    flex-direction: column;
+
+}
+#logo {   display: flex;
+    flex-direction: column;
+    display: none;
+
+    }
+header nav #ul-align {
+     display: flex;
+    flex-direction: column;
+}
+
+
+article div .text {
+    display: flex;
+    flex-direction: column;
+}
+.li-align img {
+    display: none;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+flex-direction: column;
+}
+footer img{
+    display: flex;
+    display: none;
+    
+}
